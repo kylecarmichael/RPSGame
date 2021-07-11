@@ -20,7 +20,7 @@
     </div>
         
     <!-- Both Players Row -->
-    <div class="container row text-center game-box">
+    <div class="container row text-center game-box py-3">
         
         <!-- Player 1 container -->
         <div class="container col-5 player-box p-3"> 
@@ -56,8 +56,22 @@
         </div>
 
         <!-- Fight and Results Btn -->
-        <div class="container col-2 p-3 text-center">
-            <button class="btn btn-danger">Fight!</button>
+        <div class="container col-2 p-1 text-center">
+            <div class="container">
+                <h3>Score</h3>
+                <div class="container row">
+                    <div class="container col-6">
+                        <h4 class="text-center">0</h4>
+                    </div>
+                    <div class="container col-6">
+                        <h4 class="text-center">0</h4>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-danger">Fight!</button>
+            <br>
+            <button type="button" class="btn btn-outline-secondary">Reset</button>
+            
         </div>
 
         <!-- Player 2 container -->

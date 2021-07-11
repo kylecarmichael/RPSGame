@@ -1,10 +1,14 @@
+.row {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
 h1 {
     color: blue;
 }
 
 .game-box {
-    margin-left: auto!important;
-    margin-right: auto!important;
+   background-color: aliceblue;
 }
 
 .player-box {
@@ -13,6 +17,4 @@ h1 {
 
 .player-choice-box {
     background-color: palevioletred;
-    margin-left: auto!important;
-    margin-right: auto!important;
 }
